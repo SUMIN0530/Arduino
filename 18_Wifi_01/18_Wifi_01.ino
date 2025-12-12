@@ -5,7 +5,7 @@ SoftwareSerial myESP(2, 3);
 void setup() {
   Serial.begin(9600);
   myESP.begin(9600);
-  Serial.print('ESP test');
+  Serial.println("ESP test");
 }
 
 void loop() {
